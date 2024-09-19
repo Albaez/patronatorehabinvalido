@@ -1,10 +1,9 @@
 import React from 'react';
-import NavBar from './Navbar';
+import NavBar from '../components/Navbar';
 
-const Home = () => {
+export const Home = () => {
   return (
     <div>
-      <NavBar />
       <header className="jumbotron my-4">
         <h1 className="display-3">Bienvenido al Patronato de Rehabilitación de Inválidos</h1>
         <p className="lead">Comprometidos con tu bienestar y recuperación.</p>
@@ -54,4 +53,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+

@@ -7,10 +7,9 @@ import {
   MDBRow,
 } from "mdb-react-ui-kit";
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-
 import React from "react";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -114,22 +113,17 @@ const Footer = () => {
                 patronatonacionalr@yahoo.com
               </p>
               <p>
-                <MDBIcon color="secondary" icon="phone" className="me-3" /> + 504
-                2236-6909
+                <MDBIcon color="secondary" icon="phone" className="me-3" /> + 504 2236-6909
               </p>
               <p>
-                <MDBIcon color="secondary" icon="print" className="me-3" /> + 504
-                9557-6500
+                <MDBIcon color="secondary" icon="print" className="me-3" /> + 504 9557-6500
               </p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
       </section>
 
-      <div
-        className="text-center p-4"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
-      >
+      <div className="text-center p-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
         © 2024 Copyright:
         <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
           ComercioElectronico/Ceutec
@@ -139,4 +133,5 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+
+
